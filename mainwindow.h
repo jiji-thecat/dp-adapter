@@ -21,6 +21,19 @@ private:
     Ui::MainWindow *ui;
     QVBoxLayout *rootLayout;
     QHBoxLayout *iconFieldLayout;
-    void setLabel(const char *imagePath);
+    QHBoxLayout *buttonFieldLayout;
+    QHBoxLayout *closeButtonFieldLayout;
+    QVBoxLayout *leftFieldLayout;
+    QVBoxLayout *rightFieldLayout;
+    void setLabel();
+    void setButton();
+    bool isButton1Clicked = false;
+    bool isButton2Clicked = false;
+    bool isButton3Clicked = false;
+
+private slots:
+    void button1Clicked();
+    void button2Clicked();
+    void button3Clicked();
 };
 #endif // MAINWINDOW_H
