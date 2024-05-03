@@ -11,6 +11,7 @@ To implement this pattern, we define an interface called `AdapterInterface` with
 ### Class diagram
 
 ![class diagram](https://github.com/jiji-thecat/dp-adapter/assets/104809324/dc985fef-ec13-4690-abdc-3c3131703d86)
+[wiki](https://ja.wikipedia.org/wiki/Adapter_%E3%83%91%E3%82%BF%E3%83%BC%E3%83%B3)
 
 For the scenario described above:
 
